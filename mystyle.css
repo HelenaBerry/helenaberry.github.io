@@ -11,3 +11,27 @@
 #stuff2{
   "background-color:pink;color:blue;"
 }
+
+#tictactoe_board{
+ margin-left:auto;
+ margin-right:auto;
+ width:350px;
+ height:350px;
+}
+
+.box{
+border-style:solid;
+ float:left;
+ text-align:center;
+ line-height:100px;
+ vertical-align:middle;
+ height:100px;
+ width:100px;
+ background-color:white;
+ 
+}
+
+
+
+
+
