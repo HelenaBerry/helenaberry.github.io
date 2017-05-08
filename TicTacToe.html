@@ -14,7 +14,9 @@
             //alert("chosen symbol: " + chosenSymbol);
           }
       function MakeMove(divId){
+        if(document.getElementById(divId).innerHTML==""){
         document.getElementById(divId).innerHTML=chosenSymbol;
+      }
       }
     </script>
   </head>
