@@ -6,12 +6,12 @@
       var chosenSymbol='x';
         function chooseX(){
           chosenSymbol= 'x';
-            alert("chosen symbol: " + chosenSymbol);
+           // alert("chosen symbol: " + chosenSymbol);
         }
           
           function chooseO(){
             chosenSymbol= 'o';
-            alert("chosen symbol: " + chosenSymbol);
+            //alert("chosen symbol: " + chosenSymbol);
           }
     </script>
   </head>
@@ -30,15 +30,15 @@
           Choose X or O to begin.
         </div>
           <div id="TicTacToeBoard">
-            <div class="box" id="row1col1" onclick="MakeMove()"></div>
-            <div class="box" id="row1col2" onclick="MakeMove()"></div>
-            <div class="box" id= "row1col3" onclick="MakeMove()"></div>
-            <div class="box" id= "row2col1" onclick="MakeMove()"></div>
-            <div class="box" id= "row2col2" onclick="MakeMove()"></div>
-            <div class="box" id= "row2col3" onclick="MakeMove()"></div>
-            <div class="box" id= "row3col1" onclick="MakeMove()"></div>
-            <div class="box" id= "row3col2" onclick="MakeMove()"></div>
-            <div class="box" id= "row3col3" onclick="MakeMove()"></div>
+            <div class="box" id="row1col1" onclick="MakeMove('row1col1')"></div>
+            <div class="box" id="row1col2" onclick="MakeMove('row1col2')"></div>
+            <div class="box" id= "row1col3" onclick="MakeMove('row1col3')"></div>
+            <div class="box" id= "row2col1" onclick="MakeMove('row2col1')"></div>
+            <div class="box" id= "row2col2" onclick="MakeMove('row2col2')"></div>
+            <div class="box" id= "row2col3" onclick="MakeMove('row2col3')"></div>
+            <div class="box" id= "row3col1" onclick="MakeMove('row3col1')"></div>
+            <div class="box" id= "row3col2" onclick="MakeMove('row3col2')"></div>
+            <div class="box" id= "row3col3" onclick="MakeMove('row3col3')"></div>
         </div>
       </div>
     Tic Tac Toe
